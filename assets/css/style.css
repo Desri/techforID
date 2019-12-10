@@ -150,6 +150,52 @@ img::-moz-selection {
   background: #d33a36;
   box-shadow: 0px 0px 10px -2px #d33a36;
 }
+#navbarKreatif .navIcon ul li a img {
+  width: 17px;
+}
+#navbarKreatif .menu {
+  width: 60%;
+  padding-top: 6px;
+}
+#navbarKreatif .menu ul {
+  float: left;
+  overflow: hidden;
+  padding-left: 15px;
+}
+#navbarKreatif .menu ul li{
+  float: left;
+  margin-right: 20px;
+}
+#navbarKreatif .menu .formSearch {
+  float: left;
+  width: 75%;
+}
+#navbarKreatif .menu .formSearch form .form-group {
+  margin: 0px;
+  position: relative;
+}
+#navbarKreatif .menu .formSearch form .form-group input{
+  font-size: 14px;
+  border: 1px solid #ffffff;
+}
+#navbarKreatif .menu .formSearch form .form-group button{
+  top: 0;
+  right: -1px;
+  border: 0px;
+  height: 35px;
+  position: absolute;
+  background: transparent;
+}
+#navbarKreatif .menu .formSearch form .form-group button img{
+  width: 20px;
+}
+#navbarKreatif .menu ul li .hamburger img {
+  width: 15px;
+}
+#navbarKreatif .menu ul li a {
+  font-size: 14px;
+  color: #ffffff;
+}
 #navbarKreatif a img{
   width: 120px;
 }
@@ -161,7 +207,7 @@ img::-moz-selection {
 }
 
 #navbarKreatif .dropdown-toggle i {
-  left: 2px;
+  left: 7px;
   font-weight: 600;
   position: relative;
 }
@@ -196,8 +242,18 @@ img::-moz-selection {
 
 @media (min-width: 992px) {
   #navbarKreatif .navbar-nav .nav-link {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #navbarKreatif .navbar-nav .nav-link p {
+    float: left;
+    margin: 0px;
+    font-size: 14px;
+    padding-top: 3px;
+    line-height: 10px;
+  }
+  #navbarKreatif .navbar-nav .nav-link p span{
+    font-size: 10px;
   }
   .animate {
     animation-duration: 0.3s;
@@ -274,6 +330,27 @@ main {
   background: #ffffff;
   border-radius: 5px;
   border: 1px solid #ffffff;
+  box-shadow: 0px 2px 6px #797979;
+}
+
+
+
+#liputan {
+  background-color: #f7ebe8;
+}
+#liputan .headingLiputan {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#liputan .headingLiputan h2{
+  color: #ce0000;
+  font-size: 15px;
+}
+#liputan .imgLiputan {
+  text-align: center;
+}
+#liputan .imgLiputan img {
+  width: 90%;
 }
 
 /** Testimonial **/
