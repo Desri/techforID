@@ -424,11 +424,36 @@ main {
   top: -9px;
   margin: 0px;
   opacity: 0.8;
-  color: #d00101;
+  color: #353535;
   font-size: 14px;
   position: relative;
   text-decoration: line-through;
 }
+#listProduk .item .card-body a h4 {
+  margin-bottom: 7px;
+}
+#listProduk .item .card-body .colPrice {
+  margin-top: 15px;
+}
+#listProduk .item .card-body a p {
+  margin: 0px;
+  opacity: 0.5;
+  color: #fb0000;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+#listProduk .item .card-body a p a{
+  color: #fb0000;
+}
+.paging ul li a {
+  font-size: 16px;
+  color: #7d7d7d;
+}
+.paging ul li a:hover {
+  color: #ffffff;
+  background: #ef0d0d;
+}
+
 
 
 
