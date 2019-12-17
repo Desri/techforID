@@ -88,6 +88,67 @@ img::-moz-selection {
   background: transparent;
 }
 
+.titlePage .lineText {
+  height: 4px;
+  width: 30px;
+  background: #e85551;
+}
+.titleDetailPage {
+  width: 50%;
+}
+.titleDetailPage p{
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+#filterCourse {
+  margin-top: 40px;
+}
+#filterCourse .headingCourse h2 {
+  font-size: 24px;
+}
+#filterCourse .filter {
+  padding: 30px;
+  overflow: hidden;
+  background: #fcf6f6;
+}
+#filterCourse .filter form .form-group {
+  width: 49%;
+  margin-bottom: 0px;
+}
+#filterCourse .filter form .form-group label{
+  float: left;
+  color: #676767;
+  font-size: 13px;
+  font-weight: 600;
+  margin-right: 15px;
+}
+#filterCourse .filter form .form-group .form-filter {
+  float: left;
+  width: 55%
+}
+#filterCourse .filter form .form-group .form-filter select{
+  font-size: 14px;
+}
+#filterCourse .filter form .form-group .form-searchs {
+  position: relative;
+}
+#filterCourse .filter form .form-group .form-searchs input{
+  width: 85%;
+  float: right;
+  font-size: 15px;
+}
+#filterCourse .filter form .form-group .form-searchs button{
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  position: absolute;
+  border-radius: 0px;
+  background: #f36f6c;
+  border: 1px solid #f36f6c;
+}
+
+
 .colBtn {
   margin: auto;
   width: 250px;
