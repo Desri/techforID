@@ -75,8 +75,20 @@
   }
 }
 @media only screen and (min-width : 320px) and (max-width : 480px) {
+  #contentDetail .sidebarDetail {
+    position: inherit;
+    top: 0;
+    margin-bottom: 30px;
+    margin-top: -410px;
+  }
   #masterBanner {
     background-size: cover;
+  }
+  .bannerMobile {
+    height: 400px;
+  }
+  .bannerMobile .titleDetailPage {
+    display: none;
   }
   #navbarKreatif .menu {
     display: none;

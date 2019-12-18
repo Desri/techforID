@@ -563,6 +563,265 @@ main {
 }
 
 
+#contentDetail .descDetail h2 {
+  font-size: 25px;
+  font-weight: normal;
+}
+#contentDetail .descDetail p {
+  font-size: 15px;
+}
+#contentDetail .descDetail ul{
+  padding-left: 30px;
+}
+#contentDetail .descDetail ul li{
+  font-size: 15px;
+  list-style: decimal;
+}
+#contentDetail .hasil{
+  margin-top: 30px;
+}
+#contentDetail .hasil h2{
+  margin-bottom: 20px;
+}
+#contentDetail .hasil .listHasil{
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+#contentDetail .hasil .listHasil .iconImg {
+  float: left;
+  width: 35px;
+}
+#contentDetail .hasil .listHasil .iconImg img{
+  width: 13px;
+}
+#contentDetail .hasil .listHasil p {
+  margin: 0px;
+}
+#contentDetail .curiculum {
+  margin-top: 35px;
+}
+#contentDetail .curiculum h2{
+  margin-bottom: 25px;
+}
+#contentDetail .curiculum .accordion .card{
+  background: transparent;
+  margin-bottom: 10px;
+}
+#contentDetail .curiculum .accordion .card-header {
+  background-color: #fcf6f6;
+}
+#contentDetail .curiculum .accordion .card-header h5 {
+  font-size: 16px;
+}
+#contentDetail .curiculum .accordion .card-header h5 span {
+  right: 17px;
+  top: 14px;
+  position: absolute;
+}
+#contentDetail .curiculum .accordion .card-body .listMateri ul{
+  padding-left: 10px;
+}
+#contentDetail .curiculum .accordion .card-body .listMateri ul li{
+  list-style: none;
+  margin: 10px 0px;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f3f3f3;
+}
+#contentDetail .curiculum .accordion .card-body .listMateri ul li p{
+  margin: 0px;
+}
+#contentDetail .curiculum .accordion .card-body .listMateri ul li p i{
+  color: #d33a36;
+  margin-right: 10px;
+}
+#contentDetail .curiculum .accordion .card-body .listMateri ul li span{
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  color: #d33a36;
+  font-size: 14px;
+}
+
+
+#contentDetail .sidebarDetail {
+  position: absolute;
+  top: -185px;
+  z-index: 999;
+}
+#contentDetail .sidebarDetail .colPayment .card {
+  padding: 10px 10px 20px 10px;
+  border: 0px;
+  border-radius: 0px;
+  box-shadow: 0px 2px 8px #ececec;
+}
+#contentDetail .sidebarDetail .colPayment .card p {
+  margin: 0px;
+  font-size: 14px;
+}
+#contentDetail .sidebarDetail .colPayment .card ul {
+  margin-top: 15px;
+  padding-left: 30px;
+  margin-bottom: 0px;
+}
+#contentDetail .sidebarDetail .colPayment .card ul li {
+  list-style: decimal;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .colPrice {
+  overflow: hidden;
+}
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .colPrice .price{
+  float: left;
+}
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .colPrice .price p{
+  color: #d33a36;
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .colPrice .price span{
+  color: #8a8a8a;
+  font-size: 14px;
+  position: relative;
+  text-decoration: line-through;
+  top: -9px;
+}
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .colPrice .colPercent{
+  float: right;
+}
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .colPrice .colPercent .percent {
+  color: #ffffff;
+  font-size: 13px;
+  padding: 5px 15px;
+  border-radius: 6px;
+  background-color: #ff9500;
+}
+
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .colBtn {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .colBtn .btns button.btnBuy1 {
+  color: #ffffff;
+  box-shadow: 0 7px 24px -10px rgba(255, 73, 73, 0.5);
+  width: 90%;
+  font-size: 14px;
+  margin-bottom: 15px;
+  background-color: #ff4949;
+}
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .colBtn .btns button.btnBuy2 {
+  color: #ff4949;
+  width: 90%;
+  font-size: 14px;
+  margin-bottom: 15px;
+  border:1px solid #ff4949;
+}
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .or {
+  margin-bottom: 20px;
+}
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .or p {
+  text-align: center;
+}
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .colbtnCart{
+  margin-bottom: 25px;
+}
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .colbtnCart .btnCarts {
+  overflow: hidden;
+}
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .colbtnCart .btnCarts .cart{
+  float: left;
+}
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .colbtnCart .btnCarts .cart button.btnCart{
+  color: #ffffff;
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 15px;
+  background-color: #ff4949;
+}
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .colbtnCart .btnCarts .cart button.btnCart img{
+  width: 14px;
+}
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .colbtnCart .btnCarts .whislist{
+  float: right;
+}
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .colbtnCart .btnCarts .whislist button.btnWhislist{
+  color: #ff4949;
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ff4949;
+}
+#contentDetail .sidebarDetail .colPayment .card .masterDetail .colbtnCart .btnCarts .whislist button.btnWhislist img{
+  width: 14px;
+}
+#contentDetail .sidebarDetail .colPayment .card .include {
+  margin-bottom: 20px;
+}
+#contentDetail .sidebarDetail .colPayment .card .include p {
+  color: #d33a36;
+  font-size: 18px;
+  font-weight: 600;
+}
+#contentDetail .sidebarDetail .colPayment .card .include ul {
+  padding-left: 0px;
+}
+#contentDetail .sidebarDetail .colPayment .card .include ul li {
+  list-style: none;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f3f3f3;
+}
+#contentDetail .sidebarDetail .colPayment .card .include ul li img{
+  width: 15px;
+  margin-right: 10px;
+}
+#contentDetail .sidebarDetail .colPayment .card .coupon {
+  margin-bottom: 30px;
+}
+#contentDetail .sidebarDetail .colPayment .card .coupon form {
+  margin-top: 5px;
+  position: relative;
+}
+#contentDetail .sidebarDetail .colPayment .card .coupon form input{
+  font-size: 14px
+}
+#contentDetail .sidebarDetail .colPayment .card .coupon form button{
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  border-radius: 0px;
+  position: absolute;
+  background-color: #ff4949;
+  border: 1px solid #ff4949;
+}
+#contentDetail .sidebarDetail .colPayment .card .share p img {
+  width: 31px;
+  margin: 12px 5px 0px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -572,6 +831,9 @@ footer {
   padding-top: 4rem;
   padding-bottom: 2rem;
   background-color: #333333;
+}
+footer .logoFooter img{
+  width: 63%;
 }
 footer .headingFooter h2 {
   color: #ffffff;
